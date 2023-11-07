@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+  .catalog {
+    &__content {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .catalog {
+    &__tab {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 503px) {
+  .catalog {
+    &__tabs {
+      flex-wrap: wrap;
+    }
+    &__tab {
+      margin-top: 10px;
+      transform: none;
+      div {
+        transform: none;
+      }
+    }
+  }
+}

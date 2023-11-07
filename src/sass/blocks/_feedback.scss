@@ -1,0 +1,41 @@
+.feedback {
+  padding: 0 20px;
+}
+.review {
+  margin-top: 60px;
+  display: flex;
+  &__img {
+    margin-right: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 169px;
+    height: 169px;
+    overflow: hidden;
+    border-radius: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__content {
+    padding-right: 53px;
+  }
+  &__title {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &__text {
+    margin-top: 10px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

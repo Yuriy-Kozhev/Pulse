@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+  .review {
+    flex-wrap: wrap;
+    justify-content: center;
+    &__img {
+      margin-right: 0;
+    }
+    &__content {
+      padding-right: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .title_consultation {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 576px) {
+  .consultation__descr {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 420px) {
+  .feed-form {
+    width: 100%;
+  }
+}
