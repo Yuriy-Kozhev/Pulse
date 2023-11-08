@@ -24,6 +24,9 @@
 @media (max-width: 480px) {
   .header {
     flex-wrap: wrap;
+    &__logo {
+      margin: 0 auto;
+    }
     &__contacts {
       margin-right: 30px;
       margin-top: 80px;
@@ -37,6 +40,7 @@
     }
     &__icon {
       width: 100%;
+      font-size: 12px;
     }
     &__header {
       font-size: 38px;

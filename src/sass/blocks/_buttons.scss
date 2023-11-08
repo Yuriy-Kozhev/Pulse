@@ -9,6 +9,10 @@
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(105%);
+  }
   &_main {
     margin-top: 68px;
     width: 300px;
