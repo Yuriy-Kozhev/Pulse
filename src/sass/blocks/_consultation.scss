@@ -8,4 +8,15 @@
     font-weight: 500;
     line-height: 30px;
   }
+  .error {
+    border: 2px solid red;
+  }
+  label.error {
+    border: none;
+    margin-bottom: 11px;
+    font-size: 14px;
+    font-weight: 700;
+    color: red;
+    line-height: normal;
+  }
 }
